@@ -1112,15 +1112,6 @@ bool ValidPlayUNO(int playedCard, int topCard)  //valid play function only calle
 	int color1 = card_color(playedCard);
 	int color2 = card_color(topCard);
 	
-//	if(type2==13||type2==14){
-//		switch(wildColor){
-//			case 1: color2 = RED;	break;
-//			case 2: color2 = GREEN; break;
-//			case 3: color2 = BLUE;	break;
-//			case 4: color2 = YELLOW;break;
-//		}
-//	}
-	
 	if(type1==13 || type1==14)
 		return 1;
 	
