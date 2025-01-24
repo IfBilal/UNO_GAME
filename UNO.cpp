@@ -1247,9 +1247,6 @@ int card_color(int x)    //checks the color of card passed
 { 
 	int color;
 	
-//	if(card_type(x)==13 || card_type(x)==14)  //if card type is 13 or 14 
-//		return WHITE; // for card printing
-	
 	color = (x/100==0)? x/10 : x/100;   //first digit of the value tells us the color 
 		
 	switch(color)
